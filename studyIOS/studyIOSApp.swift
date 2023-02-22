@@ -11,7 +11,8 @@ import SwiftUI
 struct studyIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //定义为全局的环境变量 TabBarIndexObserved
+            ContentView().environmentObject(TabBarIndexObserved())
         }
     }
 }
