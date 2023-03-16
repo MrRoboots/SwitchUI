@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0C68DC29A7107600B18117 /* idle_fish_ui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C68DB29A7107600B18117 /* idle_fish_ui.swift */; };
 		3E34815D29A4A35600BFAC97 /* studyIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E34815C29A4A35600BFAC97 /* studyIOSApp.swift */; };
 		3E34815F29A4A35600BFAC97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E34815E29A4A35600BFAC97 /* ContentView.swift */; };
 		3E34816129A4A35700BFAC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E34816029A4A35700BFAC97 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		3E3481B529A5C74B00BFAC97 /* 23_stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3481B429A5C74B00BFAC97 /* 23_stacks.swift */; };
 		3E3481B829A5E67600BFAC97 /* todo_swift_ui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3481B729A5E67600BFAC97 /* todo_swift_ui.swift */; };
 		3E3481BB29A5F68300BFAC97 /* app_store_ui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3481BA29A5F68300BFAC97 /* app_store_ui.swift */; };
+		3E3481BE29A6194D00BFAC97 /* prop_wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3481BD29A6194D00BFAC97 /* prop_wrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E091B5E29AC82D00073F106 /* 04_enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 04_enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3E091B5F29ACA0590073F106 /* 05_struct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 05_struct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3E091B6029ACA5C90073F106 /* 06_closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 06_closure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3E09DEFA29A88A2B003FB2B4 /* 01_const_type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01_const_type.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3E09DEFB29A88ECD003FB2B4 /* 02_condition_control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 02_condition_control.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3E09DEFC29AC3BCF003FB2B4 /* 03_func.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 03_func.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3E0C68DB29A7107600B18117 /* idle_fish_ui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idle_fish_ui.swift; sourceTree = "<group>"; };
 		3E34815929A4A35600BFAC97 /* studyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E34815C29A4A35600BFAC97 /* studyIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyIOSApp.swift; sourceTree = "<group>"; };
 		3E34815E29A4A35600BFAC97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +104,9 @@
 		3E3481B429A5C74B00BFAC97 /* 23_stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23_stacks.swift; sourceTree = "<group>"; };
 		3E3481B729A5E67600BFAC97 /* todo_swift_ui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo_swift_ui.swift; sourceTree = "<group>"; };
 		3E3481BA29A5F68300BFAC97 /* app_store_ui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_store_ui.swift; sourceTree = "<group>"; };
+		3E3481BD29A6194D00BFAC97 /* prop_wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prop_wrapper.swift; sourceTree = "<group>"; };
+		3E9EF38729B5847200519659 /* 17_pointer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 17_pointer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3EC4E3F329AF3789009FE623 /* 07_target.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 07_target.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E09DEF929A889D3003FB2B4 /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				3E09DEFA29A88A2B003FB2B4 /* 01_const_type.playground */,
+				3E09DEFB29A88ECD003FB2B4 /* 02_condition_control.playground */,
+				3E09DEFC29AC3BCF003FB2B4 /* 03_func.playground */,
+				3E091B5E29AC82D00073F106 /* 04_enum.playground */,
+				3E091B5F29ACA0590073F106 /* 05_struct.playground */,
+				3E091B6029ACA5C90073F106 /* 06_closure.playground */,
+				3EC4E3F329AF3789009FE623 /* 07_target.playground */,
+				3E9EF38729B5847200519659 /* 17_pointer.playground */,
+			);
+			path = basic;
+			sourceTree = "<group>";
+		};
+		3E0C68DA29A7104900B18117 /* idle_fish */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C68DB29A7107600B18117 /* idle_fish_ui.swift */,
+			);
+			path = idle_fish;
+			sourceTree = "<group>";
+		};
 		3E34815029A4A35600BFAC97 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +180,9 @@
 		3E34815B29A4A35600BFAC97 /* studyIOS */ = {
 			isa = PBXGroup;
 			children = (
+				3E09DEF929A889D3003FB2B4 /* basic */,
+				3E0C68DA29A7104900B18117 /* idle_fish */,
+				3E3481BC29A6192F00BFAC97 /* prop_wrapper */,
 				3E3481B929A5F67500BFAC97 /* app_store_ui */,
 				3E3481B629A5E65E00BFAC97 /* todo */,
 				3E3481AD29A5BA5E00BFAC97 /* Info.plist */,
@@ -226,6 +264,14 @@
 				3E3481BA29A5F68300BFAC97 /* app_store_ui.swift */,
 			);
 			path = app_store_ui;
+			sourceTree = "<group>";
+		};
+		3E3481BC29A6192F00BFAC97 /* prop_wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				3E3481BD29A6194D00BFAC97 /* prop_wrapper.swift */,
+			);
+			name = prop_wrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,7 +410,9 @@
 				3E3481AF29A5BBBE00BFAC97 /* 20_contextmenu_menu_form.swift in Sources */,
 				3E3481AC29A5B79900BFAC97 /* 19_onopenurl.swift in Sources */,
 				3E34819429A4A3F600BFAC97 /* 10_toolbar.swift in Sources */,
+				3E3481BE29A6194D00BFAC97 /* prop_wrapper.swift in Sources */,
 				3E3481BB29A5F68300BFAC97 /* app_store_ui.swift in Sources */,
+				3E0C68DC29A7107600B18117 /* idle_fish_ui.swift in Sources */,
 				3E34819829A4A3F600BFAC97 /* 06_timelineview.swift in Sources */,
 				3E3481A429A4B64A00BFAC97 /* 15_gradient.swift in Sources */,
 				3E34819E29A4AD7B00BFAC97 /* 12_slider.swift in Sources */,
@@ -548,7 +596,7 @@
 				INFOPLIST_FILE = studyIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = launch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -577,7 +625,7 @@
 				INFOPLIST_FILE = studyIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = launch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

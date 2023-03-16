@@ -188,7 +188,6 @@ struct StudyTabView : View {
         }, set: {
             tabbarIndex.tabSelectd = TabBarItem(rawValue: $0)!
         })
-        
     }
 
     
